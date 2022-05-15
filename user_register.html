@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dembia Primary Hospital</title>
+	<link href="css/hmsstyle.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="image/icon-logo.png">
+</head>
+<body style="background-image: url(image/foot_white.jpg); background-size: cover;">
+<div class="top">
+		<div>
+		 Contact Us +251930970778 | Dembiahospital@gmail.com 
+		</div>
+	</div>
+
+<div class="nav">
+		<div>
+			<table>
+				<tr>
+					<td width="600px">
+					 <img src="image/logo.png"> 
+					</td>
+					<td>
+						<font size="4px"> 
+							<a href="index.html">HOME</a>
+							<a href="doctors.html">DOCTORS</a> 
+							<a href="login.html">LOGIN</a>
+							<a href="services.html">SERVICES</a>
+							<a href="about.html">ABOUT US</a>  
+							<a href="contact">CONTACT US</a>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+    <br>
+    <div align="center"  style="color: red;">
+    <p> Patients can't register yourself,
+But you can fill your personal informations and contact the register officer to approved your register. </p>
+
+<p> Don't forget your I.D or passport when you contact cash registers. </p>
+</div>
+<form action="Backend.php" method="post">
+
+                        <div class="register" >
+                            <div class="table-responsive"  style="overflow-x: auto;">
+
+                                <table width="70%" style="margin-right: 189px;" >
+                                    <thead>
+                                        <tr>
+                                            <td>First Name <br><input name="fname" type="text" placeholder="e.g:    Abebe" name="" minlength="2" maxlength="20" required="required"></td>
+                                            <td>Middle Name <br><input name="mname" type="text" placeholder="e.g:    Kebede" name="" minlength="2" maxlength="20" required="required"></td>
+                                            <td>Last Name <br><input name="lname" type="text" placeholder="e.g:    alegeta" name="" minlength="2" maxlength="20" required="required"></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Gender <br> <select style="width: 273px; height: 38px;" name="gender">
+                                            	<option style="color: grey;" selected disabled>Select</option>
+                                            	<option>Male</option>
+                                            	<option>Female</option>
+                                            </select></td>
+                                            <td>Age <br><input name="age" type="Number" name="" placeholder="e/g:   20" style=" width: 266px; height:33px;" maxlength="3"></td>
+                                            <td>
+                                                <span class="status green"></span> Email <br><input name="email" type="text" placeholder="e.g:  example@gmail.com" name="" maxlength="30" required="required">
+                                            </td>
+                                        </tr>
+                                     
+                                       
+                                       <tr>
+                                            <td>Phone Number <br><input type="text" name="phone" maxlength="10" placeholder="e.g:   0912345678" ></td>
+                                            <td>Region <br><input type="text" name="region" placeholder="your region here" maxlength="30" ></td>
+                                            <td>
+                                                <span class="status red"></span> Town <br><input name="town"type="text" placeholder="your town here" name="" maxlength="30">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Kebele <br><input type="text" name="kebele" placeholder="e.g:   05" maxlength="10" ></td>
+                                            <td>House Number <br><input type="text" name="house" placeholder="e.g:  123" maxlength="30" ></td>
+                                            <td>Blood Type <br> <select name="blood" style="width: 273px; height: 38px;">
+                                            	<option style="color: grey;" selected="selected" disabled>Select</option>
+                                            	<option>A+</option>
+                                            	<option>A-</option>
+                                            	<option>B+</option>
+                                            	<option>B-</option>
+                                            	<option>O+</option>
+                                            	<option>O-</option>
+                                            	<option>AB+</option>
+                                            	<option>AB-</option>
+                                            </select></td>
+                                        </tr>
+
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div align="center"><br>
+ <input type="submit" name="save" value="Confirm"> 
+</div>
+</form>
+<br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+<div class="nav_down">
+		<div>
+		 &copy; 2021. Dembia Primary Hospital | Ethiopia, Amhara
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
